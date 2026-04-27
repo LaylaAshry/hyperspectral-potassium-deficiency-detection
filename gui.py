@@ -13,14 +13,21 @@ from analyzer.calibration import calibrate
 from analyzer.classifier import classify
 from analyzer.plotting import plot_comparison
 
+def resource_path(relative_path):
+    """Gets the correct path whether running as a script or a bundled exe."""
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.dirname(__file__), relative_path)
+
+
+DEFAULT_HEALTHY   = resource_path('baselines/healthy.txt')
+DEFAULT_DEFICIENT = resource_path('baselines/deficient.txt')
+DEFAULT_WHITE_REF = resource_path('baselines/white_reference.txt')
+OUTPUT_LOG        = './results/field_results.csv'
 
 # ══════════════════════════════════════════════════════════════════
 # CONFIGURATION
 # ══════════════════════════════════════════════════════════════════
-DEFAULT_HEALTHY   = './baselines/healthy.txt'
-DEFAULT_DEFICIENT = './baselines/deficient.txt'
-DEFAULT_WHITE_REF = './baselines/white_reference.txt'
-OUTPUT_LOG        = './results/field_results.csv'
 
 COLORS = {
     'Healthy':   '#2ecc71',
@@ -43,7 +50,7 @@ class MangoApp(tk.Tk):
 
     def __init__(self):
         super().__init__()
-        self.title('Mango Leaf Analyser')
+        self.title('FAU Farm Owls SpectraSense')
         self.geometry('780x680')
         self.resizable(False, False)
         self.configure(bg=COLORS['bg'])
@@ -65,7 +72,7 @@ class MangoApp(tk.Tk):
         # ── Title bar ────────────────────────────────────────────
         title_frame = tk.Frame(self, bg=COLORS['bg'], pady=16)
         title_frame.pack(fill='x')
-        tk.Label(title_frame, text='🌿 Mango Leaf Analyser',
+        tk.Label(title_frame, text='🌿 FAU Farm Owls SpectraSense',
                  font=('Helvetica', 22, 'bold'),
                  bg=COLORS['bg'], fg=COLORS['text']).pack()
         tk.Label(title_frame, text='Potassium deficiency detection via hyperspectral imaging',

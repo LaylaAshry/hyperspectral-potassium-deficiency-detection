@@ -15,3 +15,9 @@ timestamp,file,classification,healthy_similarity_pct,deficient_similarity_pct,ma
 2026-04-27 11:09:03,sample_healthy_mild.txt,Uncertain,50.05,49.95,0.11,5.03,9.45,0.9927,0.9676
 2026-04-27 11:09:03,sample_healthy_confident.txt,Healthy,53.78,46.22,7.56,1.59,12.92,0.9993,0.9426
 2026-04-27 11:09:03,sample_mildly_deficient.txt,Deficient,46.4,53.6,7.2,10.15,4.32,0.9684,0.9924
+2026-04-27 11:13:30,sample_deficient_confident.txt,Deficient,44.44,55.56,11.12,13.71,0.84,0.938,0.9997
+2026-04-27 11:13:30,sample_deficient_mild.txt,Deficient,46.81,53.19,6.38,9.37,5.1,0.9732,0.9897
+2026-04-27 11:13:30,sample_uncertain.txt,Deficient,48.37,51.63,3.26,7.28,7.19,0.9848,0.9797
+2026-04-27 11:13:30,sample_healthy_mild.txt,Uncertain,50.05,49.95,0.11,5.03,9.45,0.9927,0.9676
+2026-04-27 11:13:30,sample_healthy_confident.txt,Healthy,53.78,46.22,7.56,1.59,12.92,0.9993,0.9426
+2026-04-27 11:13:30,sample_mildly_deficient.txt,Deficient,46.4,53.6,7.2,10.15,4.32,0.9684,0.9924
