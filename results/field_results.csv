@@ -9,3 +9,9 @@ timestamp,file,classification,healthy_similarity_pct,deficient_similarity_pct,ma
 2026-04-27 11:02:17,drone_capture_03.txt,Deficient,48.39,51.61,3.22,7.08,6.82,0.9864,0.9816,81.8,92.5,93.4,93.2,97.4,97.3
 2026-04-27 11:02:17,drone_capture_04.txt,Deficient,46.53,53.47,6.94,9.66,4.23,0.9719,0.9929,76.9,96.3,90.9,95.8,95.9,98.5
 2026-04-27 11:02:17,drone_capture_05.txt,Deficient,44.58,55.42,10.84,13.15,0.81,0.9444,0.9997,72.1,99.4,87.3,99.3,94.0,99.7
+2026-04-27 11:09:03,sample_deficient_confident.txt,Deficient,44.44,55.56,11.12,13.71,0.84,0.938,0.9997
+2026-04-27 11:09:03,sample_deficient_mild.txt,Deficient,46.81,53.19,6.38,9.37,5.1,0.9732,0.9897
+2026-04-27 11:09:03,sample_uncertain.txt,Deficient,48.37,51.63,3.26,7.28,7.19,0.9848,0.9797
+2026-04-27 11:09:03,sample_healthy_mild.txt,Uncertain,50.05,49.95,0.11,5.03,9.45,0.9927,0.9676
+2026-04-27 11:09:03,sample_healthy_confident.txt,Healthy,53.78,46.22,7.56,1.59,12.92,0.9993,0.9426
+2026-04-27 11:09:03,sample_mildly_deficient.txt,Deficient,46.4,53.6,7.2,10.15,4.32,0.9684,0.9924
