@@ -1,0 +1,11 @@
+timestamp,file,classification,healthy_similarity_pct,deficient_similarity_pct,margin_pct,sam_vs_healthy_deg,sam_vs_deficient_deg,pearson_vs_healthy,pearson_vs_deficient,band_visible_H,band_visible_D,band_rededge_H,band_rededge_D,band_nir_H,band_nir_D
+2026-04-27 11:02:17,drone_capture_01.txt,Healthy,54.85,45.15,9.69,0.76,13.2,0.9998,0.9425,97.8,74.4,99.4,87.2,99.7,93.9
+2026-04-27 11:02:17,drone_capture_02.txt,Uncertain,50.85,49.15,1.7,4.16,9.73,0.9954,0.9661,88.2,86.5,96.2,90.4,98.6,95.9
+2026-04-27 11:02:17,drone_capture_03.txt,Deficient,48.39,51.61,3.22,7.08,6.82,0.9864,0.9816,81.8,92.5,93.4,93.2,97.4,97.3
+2026-04-27 11:02:17,drone_capture_04.txt,Deficient,46.53,53.47,6.94,9.66,4.23,0.9719,0.9929,76.9,96.3,90.9,95.8,95.9,98.5
+2026-04-27 11:02:17,drone_capture_05.txt,Deficient,44.58,55.42,10.84,13.15,0.81,0.9444,0.9997,72.1,99.4,87.3,99.3,94.0,99.7
+2026-04-27 11:02:17,drone_capture_01.txt,Healthy,54.85,45.15,9.69,0.76,13.2,0.9998,0.9425,97.8,74.4,99.4,87.2,99.7,93.9
+2026-04-27 11:02:17,drone_capture_02.txt,Uncertain,50.85,49.15,1.7,4.16,9.73,0.9954,0.9661,88.2,86.5,96.2,90.4,98.6,95.9
+2026-04-27 11:02:17,drone_capture_03.txt,Deficient,48.39,51.61,3.22,7.08,6.82,0.9864,0.9816,81.8,92.5,93.4,93.2,97.4,97.3
+2026-04-27 11:02:17,drone_capture_04.txt,Deficient,46.53,53.47,6.94,9.66,4.23,0.9719,0.9929,76.9,96.3,90.9,95.8,95.9,98.5
+2026-04-27 11:02:17,drone_capture_05.txt,Deficient,44.58,55.42,10.84,13.15,0.81,0.9444,0.9997,72.1,99.4,87.3,99.3,94.0,99.7
