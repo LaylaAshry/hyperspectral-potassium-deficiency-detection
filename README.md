@@ -5,6 +5,12 @@ Hyperspectral potassium deficiency detector for mango trees.
 
 ---
 
+## Project Description
+
+FAU Farm Owls SpectraSense is a hyperspectral imaging tool designed to detect potassium deficiency in mango leaves. The system analyzes leaf reflectance across multiple wavelengths and compares each sample against healthy and potassium-deficient spectral baselines using spectral similarity metrics. It provides an easy-to-use interface for farmers and researchers, with results classified as Healthy, Deficient, or Uncertain to support faster and more informed crop monitoring.
+
+---
+
 ## For Farmers — Quick Start
 
 1. Download `FAU Farm Owls SpectraSense.exe` from the releases page
@@ -79,7 +85,7 @@ The classifier compares each sample against both baselines across three spectral
 
 ## Built By
 
-FAU Farm Owls — Florida Atlantic University
+Layla Ashry from FAU Farm Owls — Florida Atlantic University
 
 
 
